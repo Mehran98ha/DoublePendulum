@@ -58,7 +58,7 @@
 
 ## How To Use?
 
-[https://mehran98ha.github.io/DoublePendulum/](mehran98ha.github.io/DoublePendulum)
+[mehran98ha.github.io/DoublePendulum](https://mehran98ha.github.io/DoublePendulum/)
 
 ![Double Penndulum Tutorial](https://user-images.githubusercontent.com/17960677/138050127-86bf25fb-267f-4f6a-ba97-b26eef8eaed4.gif)
 
