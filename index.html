@@ -54,13 +54,13 @@
         touch-action: none;
       }
       line {
-        stroke: white;
+        stroke: #01ACED;
         stroke-width: 0.5;
         stroke-linecap: round;
         transition: 0s all;
       }
       circle {
-        fill: white;
+        fill: #01ACED;
         stroke: 0;
         cursor: pointer;
       }
@@ -82,15 +82,16 @@
         position: fixed;
         display: flex;
         flex-direction: column;
-        font-size: 12pt;
+        font-size: 1rem;
         align-items: center;
-        font-weight: bolder;
-        font-family: "Courier New", Courier, monospace;
+        font-weight: 500;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         top: 20px;
         left: 50%;
         transform: translateX(-50%);
         color: #909090;
         transition: 0.5s all;
+        text-transform: lowercase;
       }
       .menu * {
         cursor: pointer;
@@ -113,7 +114,7 @@
       }
       #pause {
         font-weight: bolder;
-        font-size: 5pt;
+        font-size: 6px;
         transform: scale(2, 2);
         margin-left: 10px;
         margin-right: 10px;
@@ -131,7 +132,7 @@
         display: flex;
       }
       .masses .mass span {
-        font-size: 12pt;
+        font-size: 1.7rem;
         white-space: nowrap;
       }
       @media only screen and (min-width: 768px) {
@@ -149,7 +150,7 @@
         .menu span,
         a,
         button {
-          font-size: 20pt;
+          font-size: 1.5rem;
           margin-left: 10px;
           margin-right: 10px;
         }
@@ -167,7 +168,7 @@
           align-items: flex-start;
         }
         .masses .mass span {
-          font-size: 14pt;
+          font-size: 1rem;
         }
       }
     </style>
@@ -183,7 +184,7 @@
       <path id="tracer" />
     </svg>
     <div class="menu">
-      <a href="/" id="home">⌂</a>
+      <a href="/" id="home"><img src="logo.png" alt=""></a>
       <a href="https://github.com/mehran98ha/DoublePendulum" id="github"
         >GITHUB</a
       >
